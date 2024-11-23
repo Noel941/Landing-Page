@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Iceland&family=Mogra&family=Rubik+Dirt&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <navbar id="nav-bar">
+            <div>
+                <img id="header-image" src="keyboard-warrior.png" alt="this is a logo" />
+            </div>
+            <div>
+                <input type="checkbox" name="check" id="check">
+                <ul class="nav-list">
+                    <button class="button-nav">
+                        <li class="nav-link"><a href="#home" target="_self">Home</a></li>
+                    </button>
+                    <button class="button-nav">
+                        <li class="nav-link"><a href="#about-section" target="_self">About</a></li>
+                    </button>
+                    <button class="button-nav">
+                        <li class="nav-link"><a href="#video-section" target="_self">Video</a></li>
+                    </button>
+                    <button class="button-nav">
+                        <li class="nav-link"><a href="#form-section" target="_self">Subscribe</a></li>
+                    </button>
+                    <button class="button-nav">
+                        <li class="nav-link"><a href="static.html" target="_blank"><i
+                                    class="fa-solid fa-cart-shopping"></i></a></li>
+                    </button>
+                </ul>
+            </div>
+            <div>
+                <label for="check" class="check-burger">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+        </navbar>
+    </header>
+    <main id="home">
+        <div class="home-div">
+            <div id="product-image">
+            </div>
+            <div id="text">
+                <h1 class="home-text">warrior-genesis</h1>
+                <p class="home-subtext">Presenting the old new keyboard for the <span><b>warrior</b></span></p>
+            </div>
+        </div>
+    </main>
+    <section id="about-section">
+        <div id="about-head">
+            <h2 id="about">about</h2>
+        </div>
+        <div class="section-text">
+            <p class="about-text">The keyboard warrior genesis is an input device used to enter characters and functions
+                into the computer
+                system by pressing buttons, or keys. It is the primary device used to enter text. A keyboard typically
+                contains keys for individual letters, numbers and special characters, as well as keys for specific
+                functions. A keyboard is connected to a computer system using a cable or a wireless connection.</p>
+            <br>
+            <p class="about-text">Most keyboards are similar but may be missing one or more of the sections mentioned
+                earlier (e.g., the keypad). Where keyboards begin to differ the most is in their construction and
+                design. Some keyboards are mechanical, while others use membrane keys. Some keyboards utilize a standard
+                design, like the Saitek keyboard pictured above, and others are split down the middle, utilizing an
+                ergonomic design. Some keyboards are rigid and always the same shape, while others are flexible and can
+                fold in half or roll up. Most keyboards use the QWERTY layout, but there are still designs that utilize
+                the Dvorak layout.</p>
+        </div>
+    </section>
+    <section id="video-section">
+        <div>
+            <h2 class="video-text">Watch our Warrior-Genesis Commercial</h2>
+        </div>
+        <div>
+            <iframe id="video" width="560" height="315"
+                src="https://www.youtube.com/embed/3bTI6WUJxD4?si=Nqd5eUWskoLwgZVM&amp;start=88"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="form-section">
+        <div class="form-class">
+            <h2 class="news-letter-text">subscribe to our news-letter here for updates!</h2>
+            <form id="form">
+                <div class="form-input">
+                    <input type="email" id="email" name="mail" placeholder="Type your Email" required>
+                </div>
+                <div class="form-submit">
+                    <button id="submit"><a href="static.html" target="_blank"></a>Submit</a></button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
